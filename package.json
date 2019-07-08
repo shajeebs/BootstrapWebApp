@@ -16,7 +16,5 @@
     "url": "https://github.com/shajeebs/BootstrapWebApp/issues"
   },
   "homepage": "https://github.com/shajeebs/BootstrapWebApp#readme",
-  "dependencies": {
-    "bootstrap": "^4.3.1"
-  }
+  "dependencies": {}
 }
