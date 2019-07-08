@@ -1,0 +1,22 @@
+{
+  "name": "bootstrapwebapp",
+  "version": "1.0.0",
+  "description": "web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shajeebs/BootstrapWebApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shajeebs/BootstrapWebApp/issues"
+  },
+  "homepage": "https://github.com/shajeebs/BootstrapWebApp#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
