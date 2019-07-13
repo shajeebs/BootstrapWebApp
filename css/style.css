@@ -292,9 +292,11 @@ a.navbar-brand {
 }
 
 .activate-menu {
-  background-image: linear-gradient(-140deg, lightblue 15%, grey 70%);
+  /*background-image: linear-gradient(-140deg, lightgreen 15%, green 70%);*/
+  background-color: #00c851!important;
   -webkit-box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);
-  box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);
+  box-shadow: -3px 13px 24px -1px grey;
+  border-bottom: 2px solid yellow;
 }
 
 a.navbar-brand {
