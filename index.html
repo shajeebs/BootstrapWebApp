@@ -14,14 +14,14 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
     rel="stylesheet" type="text/css">
   <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/cubeportfolio.min.css">
   <link rel="stylesheet" type="text/css" href="css/component.css" />
-
+  
 </head>
 
 <body>
@@ -54,23 +54,44 @@
 
 
   <!--================ Showcase section ===================-->
-  <div id="showcase">
-    <div class="container showcase">
-      <div class="full-width text-center showcase-caption mt-30">
-        <h1>Mena - Tech</h1>
-        <h4>One stop solution for all your security needs</h4>
-        <p>At Mena-Tech we aim to protect your property with the most efficient and effective security solutions with a 24-hour
-          response. We make it our duty to provide the best alarm system specifically tailored to each individual customer’s
-          design or cost requirements, together with a professional and friendly service. Your property and contents are
-          worth far more than your insurance can possibly pay-out, and in reality, nothing can really make up for the intrusion
-          into your privacy.</p>
-
-        <div class="showcase-button">
-          <a href="#contact" class="button-style showcase-btn">
-                        Get a Free Quote
-                      </a>
+  <div id="showcase"  class="carouselslide" data-ride="carousel">
+    <div id="carouselExampleIndicators">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+        </ol>
+        <div class="carousel-inner">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/Slider1.jpg')">
+          <h2 class="display-4">Mena-Tech</h2>
+          <!--<div class="carousel-caption d-none d-md-block">
+            <p class="lead">This is a description for the second slide.</p>
+          </div>-->
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('./img/Slider2.jpg')">
+          <!--<div class="carousel-caption d-none d-md-block">
+            <h2 class="display-4">Third Slide</h2>
+            <p class="lead">This is a description for the third slide.</p>
+          </div>-->
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/Slider3.jpg')">
+          <!--<div class="carousel-caption d-none d-md-block">
+            <h2 class="display-4">Fourth Slide</h2>
+            <p class="lead">This is a description for the third slide.</p>
+          </div>-->
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </div>
 
@@ -78,7 +99,6 @@
   <div id="features">
     <div class="text-center features-caption features">
       <h3>Welcome To Mena-Tech</h3>
-      <h4>Have you taken steps to protect your assets?</h4>
       <p>
         Having your property fully protected gives you peace of mind whilst at home or away and will help you and your family sleep
         better at night. Thieves can strike at any time, so why leave it to chance?
@@ -89,30 +109,39 @@
         <div class="col-sm bottom-space">
           <div class="feature-box">
             <i class="fa fa-medium fa-5x fa-icon-image"></i>
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              Creative Design
-            </h3>
-            <p class="feature-box__text">
-              Our team is specialized delivering design based on client needs.
-            </p>
+            <h5 class="heading-tertiary u-margin-bottom-small">Security Sytems</h5>
+            <ol class="list-group">
+              <li>CCTV (IP & Analog)</li>
+              <li>Access Contorl</li>
+              <li>Intrusion Alarm</li>
+              <li>Entry Control/ Gate Barrier</li>
+              <li>Time & Attendance</li>
+            </ol>
           </div>
         </div>
         <div class="col-sm bottom-space">
           <div class="feature-box">
             <i class="fa fa-keyboard-o fa-5x fa-icon-image"></i>
-            <h3 class="heading-tertiary u-margin-bottom-small">Software Design</h3>
-            <p class="feature-box__text">
-              Our team is specialized in custom android & ios mobile app development and Web/Windows app development.
-            </p>
+            <h5 class="heading-tertiary u-margin-bottom-small">Interactive System</h5>
+            <ol class="list-group">
+              <li>SMATV & IPTV</li>
+              <li>Audio Visual</li>
+              <li>Digital Signage</li>
+              <li>Audio Video Intercom</li>
+              <li>Public Address & BGM</li>
+              <li>Conference Room</li>
+            </ol>
           </div>
         </div>
         <div class="col-sm bottom-space">
           <div class="feature-box">
             <i class="fa fa-500px fa-5x fa-code fa-icon-image"></i>
-            <h3 class="heading-tertiary u-margin-bottom-small">Application Design</h3>
-            <p class="feature-box__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
-            </p>
+            <h5 class="heading-tertiary u-margin-bottom-small">Telecom & Networking</h5>
+            <ol class="list-group">
+              <li>Structured Cabling</li>
+              <li>Video & Data Communication</li>
+              <li>Wireless Networks</li>
+            </ol>
           </div>
         </div>
       </div>
@@ -430,7 +459,7 @@
 
     <div class="curve curve-top curve-center"></div>
   </footer>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.cubeportfolio.min.js"></script>
   <script src="js/jquery.matchHeight-min.js"></script>

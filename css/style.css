@@ -1,16 +1,11 @@
-/*-----------------------------------------------------------------------------------
+.list-group {
+    list-style: decimal inside !important;
+    text-align: left;
+    padding-left: 20px;
+    font-size:15px; 
+}
 
- Theme Name: Nextme
- Theme URI: http://
- Description: The Multi-Purpose Onepage Template
- Author: dethemes
- Author URI: http://themeforest.net/user/dejithemes
- Version: 1.0
 
- Main Color   : #1A237E , #2576FD
- main Font    : Poppins, Roboto
-
------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------
 
  == Table Of Content
@@ -32,7 +27,44 @@
 
 
 ---------------------------------------------------------------- */
+#carouselExampleIndicators {
+    margin-top: 50px;
+}
 
+.carousel {
+    height: 20px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    width: 100%;
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+@media (min-width: 768px) {
+    .carousel-caption p {
+            margin-bottom: 20px;
+            font-size: 21px;
+            line-height: 1.4;
+    }
+}
+
+img {
+    background: red;
+}
 
 /* ----------------------------------------------------------------
      [ 01 Start Basics ]
@@ -420,11 +452,19 @@ nav:before {
      [ End card style ]
 -----------------------------------------------------------------*/
 
-
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 /* ----------------------------------------------------------------
      [ 05 Start Showcase ]
 -----------------------------------------------------------------*/
-
+/*
 #showcase {
   height: 98vh;
   background-image: linear-gradient(to right bottom,
@@ -484,7 +524,7 @@ nav:before {
 }
 
 }
-/* ----------------------------------------------------------------
+ ----------------------------------------------------------------
      [ 05 End Showcase ]
 -----------------------------------------------------------------*/
 
