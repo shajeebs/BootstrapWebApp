@@ -1666,7 +1666,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #7f84ce url("images/overlay.png");
+			background: #e97770 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1844,7 +1844,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #7f84ce !important;
+			color: #e97770 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -1997,15 +1997,15 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			/*background: #e97770 url("images/overlay.png");*/
-			background: #7f84ce url("images/overlay.png");
+			background: #e97770 url("images/overlay.png");
 			
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				/*background: #7f84ce url("images/overlay.png");*/
-			background-color: #7f84ce; background-image: url(../../images/kk/kk_swirl_revised.png);background-attachment: fixed; background-position: center; 
+				/*background: #e97770 url("images/overlay.png");*/
+			background-color: #e97770; background-image: url(../../images/kk/kk_swirl_revised.png);background-attachment: fixed; background-position: center; 
 				color: #fff;
 			}
 
@@ -2041,6 +2041,33 @@ input, select, textarea {
 	#page-wrapper > section {
 		margin-bottom: 0;
 	}
+
+/* Navbar */
+
+nav a {
+  display: block;
+    color: #eee;
+    color: rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    height: 3em;
+    line-height: 3em;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    outline: 0;
+}
+
+.navbar-brand{
+  font-size:1.2rem;
+  color:#fff !important;
+  font-weight:bold;
+}
+
 
 /* Header */
 
@@ -2097,7 +2124,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 15em;
-		background: url("../../images/banner.jpg") center center;
+		background: url("../../images/kk/kkpic9.jpeg") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2119,11 +2146,10 @@ input, select, textarea {
 			letter-spacing: 0.25em;
 		}
 
-		.logoFirst{
-			color: #a1f10b;  
+		.logoFirst {
+			color: #fff;  
+			background: #e62d0d6b;
 		}
-
-
 
 		#logo p {
 			color: #eee;
@@ -2151,6 +2177,7 @@ input, select, textarea {
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			padding: 0 1.5em 0 1.5em;
+			background-color: indianred;
 		}
 
 			#nav > ul > li {
@@ -2290,7 +2317,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #7f84ce;
+			color: #e97770;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
