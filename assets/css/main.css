@@ -1717,7 +1717,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #2f333b url("images/overlay.png");
+			background: #e97770 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1726,7 +1726,7 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: #3f434b;
+				background-color: #e97770;
 			}
 
 			input[type="button"].style3:active,
@@ -1734,7 +1734,7 @@ input, select, textarea {
 			input[type="reset"].style3:active,
 			button.style3:active,
 			.button.style3:active {
-				background-color: #1f232b;
+				background-color: #e97770;
 			}
 
 /* List */
@@ -1996,16 +1996,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			/*background: #e97770 url("images/overlay.png");*/
-			background: #e97770 url("images/overlay.png");
-			
+			background: #343a40 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				/*background: #e97770 url("images/overlay.png");*/
-			background-color: #e97770; background-image: url(../../images/kk/kk_swirl_revised.png);background-attachment: fixed; background-position: center; 
+			background-color: #343a40; background-image: url(../../images/kk/kk_swirl_revised.png);background-attachment: fixed; background-position: center; 
 				color: #fff;
 			}
 
