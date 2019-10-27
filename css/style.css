@@ -50,11 +50,7 @@
 .carousel-item {
   height: 310px;
   min-height: 250px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  min-width: 100%;
 }
 
 .carousel-inner img {
@@ -658,10 +654,10 @@ nav:before {
   position: relative;
   font-size: 90%;
   text-decoration: none;
-  color: #999;
+  color: #c47135;
   background: transparent;
   transition: all ease .5s;
-  border: 1px solid rgba(31,181,172,.9);
+  border: 1px solid rgba(33, 224, 20, 0.9);
 }
 .folded-corner:hover{
 	background-color: rgba(31,181,172,.9);
