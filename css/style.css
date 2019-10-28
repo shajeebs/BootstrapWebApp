@@ -391,18 +391,22 @@ nav:before {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color:#00c851;
+  color:#0006c8;
   font-size: 12px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #00c851;
+  color: #0006c8;
 }
 
 .navbar .show {
     padding-top: 0px;
     background: #fff;
   }
+  
+a.dropdown-item {
+  color: #0006c8;
+}
 
 @media (max-width: 705.98px) {
   
