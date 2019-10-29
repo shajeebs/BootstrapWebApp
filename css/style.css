@@ -458,6 +458,7 @@ a.dropdown-item {
 
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03);
+    background-color: #c5f587;
   }
 
 /* Card style end here */
@@ -600,7 +601,8 @@ a.dropdown-item {
 
 .features-section-2-col-1 {
   background-image: url(../img/hero.jpg);
-  background-position: center;
+  background-size:100% 100%;
+
   height: 500px;
 }
 
