@@ -456,14 +456,14 @@ a.dropdown-item {
   transition: transform .3s;
 }
 
-.feature-box-m h3, h4 {
-     font-family:'Times New Roman', Times, serif;
-     font-style:normal;
+.feature-box-m h3, h4, a, a:hover {
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
     color: #242629;
-    font-size: 1rem;
+    font-size: .8rem;
     text-transform: uppercase;
+    text-decoration: none;
 }
-
 
 .feature-box-m icon {
     font-size: 1.5rem;
