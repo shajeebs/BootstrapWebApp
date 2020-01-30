@@ -72,7 +72,21 @@
 }
 
 img {
-    background: red;
+    background: #988a8a;
+}
+
+.text-small a:hover{
+  text-transform: lowercase;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 1.5;  
+}
+
+.text-small a {
+  text-transform: lowercase;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 /* ----------------------------------------------------------------
@@ -106,11 +120,6 @@ p{
   font-family:Roboto;
   font-size: 15px;
   line-height: 1.5;
-}
-
-a:hover {
-  color: #ffffff;
-  text-decoration: underline;
 }
 
 .text-center {
